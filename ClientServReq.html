@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./css/style5.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="new-client-request-page">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="container">
+        <div class="container2">
+          <img class="icon" src="ClientServReqicon0.svg" />
+          <div class="container3">
+            <div class="heading-1">
+              <div class="wild-at-heart">Wild at Heart</div>
+            </div>
+            <div class="paragraph">
+              <div class="pet-care">Pet Care</div>
+            </div>
+          </div>
+        </div>
+        <a href="ManagementDashboard.html" class="link">
+          <div class="switch-to-management">Switch to Management</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- BOOTSTRAP NAVBAR -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #fff; border-bottom: 1px solid #e5e7eb; padding: 0 1rem;">
+      <div class="container-fluid px-2">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#clientNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="clientNav">
+          <ul class="navbar-nav gap-1">
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ClientDashboard.html">
+                <img src="ClientServReqicon1.svg" style="width:16px; margin-right:5px;" />Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ClientProfile.html">
+                <img src="ClientServReqicon2.svg" style="width:16px; margin-right:5px;" />Profile
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-semibold" style="color: #f03e6e;" href="ClientServReq.html">
+                <img src="ClientServReqicon3.svg" style="width:16px; margin-right:5px;" />New Request
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ClientServHist.html">
+                <img src="ClientServReqicon4.svg" style="width:16px; margin-right:5px;" />History
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ClientInvoices.html">
+                <img src="ClientServReqicon5.svg" style="width:16px; margin-right:5px;" />Invoices
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="service-request">
+      <div class="container5">
+        <div class="heading-12">
+          <div class="new-service-request">New Service Request</div>
+        </div>
+        <div class="paragraph2">
+          <div class="submit-a-request-for-pet-care-services">
+            Submit a request for pet care services
+          </div>
+        </div>
+      </div>
+      <div class="fe">
+        <div class="n-0">
+          <div class="container6">
+            <div class="primitive-label">
+              <div class="select-pet">Select Pet *</div>
+            </div>
+            <div class="primitive-button">
+              <div class="primitive-span">
+                <div class="choose-a-pet">Choose a pet</div>
+              </div>
+              <img class="icon7" src="ClientServReqicon6.svg" />
+            </div>
+          </div>
+          <div class="container6">
+            <div class="primitive-label">
+              <div class="service-type">Service Type *</div>
+            </div>
+            <div class="primitive-button">
+              <div class="primitive-span2">
+                <div class="choose-a-service">Choose a service</div>
+              </div>
+              <img class="icon8" src="ClientServReqicon7.svg" />
+            </div>
+          </div>
+          <div class="container7">
+            <div class="container8">
+              <div class="primitive-label">
+                <div class="date">Date *</div>
+              </div>
+              <div class="we"></div>
+            </div>
+            <div class="container9">
+              <div class="primitive-label">
+                <div class="time">Time *</div>
+              </div>
+              <div class="we"></div>
+            </div>
+          </div>
+          <div class="container6">
+            <div class="primitive-label">
+              <div class="duration-hours">Duration (hours)</div>
+            </div>
+            <div class="we2">
+              <div class="_1">1</div>
+            </div>
+          </div>
+          <div class="container10">
+            <div class="primitive-label">
+              <div class="special-requests">Special Requests</div>
+            </div>
+            <div class="sr">
+              <div class="any-special-instructions-or-requests">
+                Any special instructions or requests...
+              </div>
+            </div>
+          </div>
+          <div class="container11">
+            <div class="be">
+              <div class="cancel">Cancel</div>
+            </div>
+            <div class="be2">
+              <img class="icon9" src="ClientServReqicon8.svg" />
+              <div class="submit-request">Submit Request</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

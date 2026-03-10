@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./css/style12.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="manage-invoices">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="container">
+        <div class="container2">
+          <img class="icon" src="MngInvicon0.svg" />
+          <div class="container3">
+            <div class="heading-1">
+              <div class="wild-at-heart-pet-care">Wild at Heart Pet Care</div>
+            </div>
+            <div class="paragraph">
+              <div class="management-portal">Management Portal</div>
+            </div>
+          </div>
+        </div>
+        <a href="ClientDashboard.html" class="link">
+          <div class="switch-to-client-view">Switch to Client View</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- BOOTSTRAP NAVBAR -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #fff; border-bottom: 1px solid #e5e7eb; padding: 0 1rem;">
+      <div class="container-fluid px-2">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mgmtNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mgmtNav">
+          <ul class="navbar-nav gap-1">
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ManagementDashboard.html">
+                <img src="MngInvicon1.svg" style="width:16px; margin-right:5px;" />Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ManageServReq.html">
+                <img src="MngInvicon2.svg" style="width:16px; margin-right:5px;" />Service Requests
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ManageEmployees.html">
+                <img src="MngInvicon3.svg" style="width:16px; margin-right:5px;" />Employees
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ManageSchedule.html">
+                <img src="MngInvicon4.svg" style="width:16px; margin-right:5px;" />Schedule
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ManageClients.html">
+                <img src="MngInvicon5.svg" style="width:16px; margin-right:5px;" />Clients
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-semibold" style="color: #f03e6e;" href="ManageInvoices.html">
+                <img src="MngInvicon6.svg" style="width:16px; margin-right:5px;" />Invoices
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="invoices2">
+      <div class="container5">
+        <div class="container6">
+          <div class="heading-12">
+            <div class="invoices3">Invoices</div>
+          </div>
+          <div class="paragraph2">
+            <div class="generate-and-track-client-invoices">
+              Generate and track client invoices
+            </div>
+          </div>
+        </div>
+        <div class="be">
+          <img class="icon8" src="MngInvicon7.svg" />
+          <div class="create-invoice">Create Invoice</div>
+        </div>
+      </div>
+      <div class="container7">
+        <div class="fe">
+          <div class="b-0">
+            <div class="container8">
+              <div class="paragraph3">
+                <div class="total-revenue">Total Revenue</div>
+              </div>
+              <div class="paragraph4">
+                <div class="_0-00">$0.00</div>
+              </div>
+            </div>
+            <img class="icon9" src="MngInvicon8.svg" />
+          </div>
+        </div>
+        <div class="fe2">
+          <div class="b-02">
+            <div class="container9">
+              <div class="paragraph">
+                <div class="pending">Pending</div>
+              </div>
+              <div class="paragraph4">
+                <div class="_0-002">$0.00</div>
+              </div>
+            </div>
+            <img class="icon10" src="MngInvicon9.svg" />
+          </div>
+        </div>
+        <div class="fe3">
+          <div class="b-0">
+            <div class="container9">
+              <div class="paragraph">
+                <div class="overdue">Overdue</div>
+              </div>
+              <div class="paragraph4">
+                <div class="_0-003">$0.00</div>
+              </div>
+            </div>
+            <img class="icon11" src="MngInvicon10.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="fe4">
+        <img class="icon12" src="MngInvicon11.svg" />
+        <div class="b-03">
+          <div class="no-invoices-yet">No invoices yet</div>
+        </div>
+        <div class="b-04">
+          <div class="create-your-first-invoice-to-get-started">
+            Create your first invoice to get started
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

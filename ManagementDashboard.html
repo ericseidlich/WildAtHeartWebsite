@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./css/style3.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="management-dashboard">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="container">
+        <div class="container2">
+          <img class="heart" src="MngDashheart0.svg" />
+          <div class="container3">
+            <div class="heading-1">
+              <div class="wild-at-heart-pet-care">Wild at Heart Pet Care</div>
+            </div>
+            <div class="paragraph">
+              <div class="management-portal">Management Portal</div>
+            </div>
+          </div>
+        </div>
+        <a href="ClientDashboard.html" class="link">
+          <div class="switch-to-client-view">Switch to Client View</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- BOOTSTRAP NAVBAR -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #fff; border-bottom: 1px solid #e5e7eb; padding: 0 1rem;">
+      <div class="container-fluid px-2">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mgmtNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mgmtNav">
+          <ul class="navbar-nav gap-1">
+            <li class="nav-item">
+              <a class="nav-link active fw-semibold" style="color: #f03e6e;" href="ManagementDashboard.html">
+                <img src="MngDashicon0.svg" style="width:16px; margin-right:5px;" />Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ManageServReq.html">
+                <img src="MngDashicon1.svg" style="width:16px; margin-right:5px;" />Service Requests
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ManageEmployees.html">
+                <img src="MngDashicon2.svg" style="width:16px; margin-right:5px;" />Employees
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ManageSchedule.html">
+                <img src="MngDashicon3.svg" style="width:16px; margin-right:5px;" />Schedule
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ManageClients.html">
+                <img src="MngDashicon4.svg" style="width:16px; margin-right:5px;" />Clients
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ManageInvoices.html">
+                <img src="MngDashicon5.svg" style="width:16px; margin-right:5px;" />Invoices
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="management-dashboard-info">
+      <div class="container5">
+        <div class="heading-12">
+          <div class="management-dashboard2">Management Dashboard</div>
+        </div>
+        <div class="paragraph2">
+          <div class="overview-of-your-pet-care-business">
+            Overview of your pet care business
+          </div>
+        </div>
+      </div>
+      <div class="container6">
+        <div class="fe">
+          <div class="i-0">
+            <div class="container7">
+              <div class="paragraph">
+                <div class="pending-requests">Pending Requests</div>
+              </div>
+              <div class="paragraph3">
+                <div class="_1">1</div>
+              </div>
+              <div class="paragraph4">
+                <div class="require-review">Require review</div>
+              </div>
+            </div>
+            <div class="icon7"></div>
+          </div>
+        </div>
+        <div class="fe2">
+          <div class="i-02">
+            <div class="container8">
+              <div class="paragraph">
+                <div class="approved-services">Approved Services</div>
+              </div>
+              <div class="paragraph3">
+                <div class="_0">0</div>
+              </div>
+              <div class="paragraph4">
+                <div class="ready-to-schedule">Ready to schedule</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fe3">
+          <div class="i-0">
+            <div class="container9">
+              <div class="paragraph">
+                <div class="total-clients">Total Clients</div>
+              </div>
+              <div class="paragraph3">
+                <div class="_12">1</div>
+              </div>
+              <div class="paragraph4">
+                <div class="active-accounts">Active accounts</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fe4">
+          <div class="i-03">
+            <div class="container10">
+              <div class="paragraph">
+                <div class="employees2">Employees</div>
+              </div>
+              <div class="paragraph3">
+                <div class="_3">3</div>
+              </div>
+              <div class="paragraph4">
+                <div class="staff-members">Staff members</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fe5">
+          <div class="i-04">
+            <div class="container11">
+              <div class="paragraph">
+                <div class="unpaid-invoices">Unpaid Invoices</div>
+              </div>
+              <div class="paragraph3">
+                <div class="_02">0</div>
+              </div>
+              <div class="paragraph4">
+                <div class="pending-payment">Pending payment</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fe6">
+          <div class="i-03">
+            <div class="container12">
+              <div class="paragraph">
+                <div class="total-revenue">Total Revenue</div>
+              </div>
+              <div class="paragraph3">
+                <div class="_03">$0</div>
+              </div>
+              <div class="paragraph4">
+                <div class="collected-payments">Collected payments</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container13">
+        <div class="fe7">
+          <div class="i-05">
+            <div class="heading-2">
+              <div class="quick-actions">Quick Actions</div>
+            </div>
+          </div>
+          <div class="i-06">
+            <a href="ManageServReq.html" class="link8">
+              <div class="paragraph2">
+                <div class="review-service-requests">Review Service Requests</div>
+              </div>
+              <div class="paragraph">
+                <div class="approve-or-deny-pending-requests">
+                  Approve or deny pending requests
+                </div>
+              </div>
+            </a>
+            <a href="ManageSchedule.html" class="link8">
+              <div class="paragraph2">
+                <div class="manage-schedule">Manage Schedule</div>
+              </div>
+              <div class="paragraph">
+                <div class="view-and-update-appointments">
+                  View and update appointments
+                </div>
+              </div>
+            </a>
+            <a href="ManageInvoices.html" class="link8">
+              <div class="paragraph2">
+                <div class="generate-invoices">Generate Invoices</div>
+              </div>
+              <div class="paragraph">
+                <div class="create-new-client-invoices">
+                  Create new client invoices
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="fe8">
+          <div class="i-05">
+            <div class="heading-22">
+              <div class="today-s-overview">Today&#039;s Overview</div>
+            </div>
+          </div>
+          <div class="i-07">
+            <div class="container14">
+              <div class="text">
+                <div class="scheduled-services">Scheduled Services</div>
+              </div>
+              <div class="text2">
+                <div class="_04">0</div>
+              </div>
+            </div>
+            <div class="container15">
+              <div class="text3">
+                <div class="completed-services">Completed Services</div>
+              </div>
+              <div class="text2">
+                <div class="_05">0</div>
+              </div>
+            </div>
+            <div class="container16">
+              <div class="text4">
+                <div class="available-employees">Available Employees</div>
+              </div>
+              <div class="text2">
+                <div class="_32">3</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

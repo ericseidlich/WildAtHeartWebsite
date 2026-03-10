@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./css/style7.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="invoice-history">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="container">
+        <div class="container2">
+          <img class="icon" src="ClientInvoicesicon0.svg" />
+          <div class="container3">
+            <div class="heading-1">
+              <div class="wild-at-heart">Wild at Heart</div>
+            </div>
+            <div class="paragraph">
+              <div class="pet-care">Pet Care</div>
+            </div>
+          </div>
+        </div>
+        <a href="ManagementDashboard.html" class="link">
+          <div class="switch-to-management">Switch to Management</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- BOOTSTRAP NAVBAR -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #fff; border-bottom: 1px solid #e5e7eb; padding: 0 1rem;">
+      <div class="container-fluid px-2">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#clientNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="clientNav">
+          <ul class="navbar-nav gap-1">
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ClientDashboard.html">
+                <img src="ClientInvoicesicon1.svg" style="width:16px; margin-right:5px;" />Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ClientProfile.html">
+                <img src="ClientInvoicesicon2.svg" style="width:16px; margin-right:5px;" />Profile
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ClientServReq.html">
+                <img src="ClientInvoicesicon3.svg" style="width:16px; margin-right:5px;" />New Request
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="ClientServHist.html">
+                <img src="ClientInvoicesicon4.svg" style="width:16px; margin-right:5px;" />History
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-semibold" style="color: #f03e6e;" href="ClientInvoices.html">
+                <img src="ClientInvoicesicon5.svg" style="width:16px; margin-right:5px;" />Invoices
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="invoices2">
+      <div class="container5">
+        <div class="heading-12">
+          <div class="invoices3">Invoices</div>
+        </div>
+        <div class="paragraph2">
+          <div class="view-and-manage-your-service-invoices">
+            View and manage your service invoices
+          </div>
+        </div>
+      </div>
+      <div class="fe">
+        <div class="o-0">
+          <div class="container6">
+            <div class="paragraph">
+              <div class="total-outstanding">Total Outstanding</div>
+            </div>
+            <div class="paragraph3">
+              <div class="_0-00">$0.00</div>
+            </div>
+          </div>
+          <img class="icon7" src="ClientInvoicesicon6.svg" />
+        </div>
+      </div>
+      <div class="fe2">
+        <img class="icon8" src="ClientInvoicesicon7.svg" />
+        <div class="o-02">
+          <div class="no-invoices-yet">No invoices yet</div>
+        </div>
+        <div class="o-03">
+          <div class="your-invoices-will-appear-here">
+            Your invoices will appear here
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
