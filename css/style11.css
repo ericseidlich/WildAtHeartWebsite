@@ -1,0 +1,933 @@
+.client-management,
+.client-management * {
+  box-sizing: border-box;
+}
+.client-management {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.header {
+  background: linear-gradient(
+    90deg,
+    rgba(236, 0, 63, 1) 0%,
+    rgba(255, 32, 86, 1) 100%
+  );
+  padding: 0px 112px 0px 112px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 64px;
+  position: relative;
+  box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.container {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 64px;
+  position: relative;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 295.91px;
+  height: 56px;
+  position: relative;
+}
+.icon {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  height: 56px;
+  position: relative;
+}
+.heading-1 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 36px;
+  position: relative;
+}
+.wild-at-heart-pet-care {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+  width: 397px;
+}
+.paragraph {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.management-portal {
+  color: #ffe4e6;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 343px;
+}
+.link {
+  flex-shrink: 0;
+  width: 308px;
+  height: 20px;
+  position: relative;
+}
+.switch-to-client-view {
+  color: #ffe4e6;
+  text-align: right;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: -56px;
+  top: 0px;
+  width: 350px;
+}
+.navigation {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #e2e8f0;
+  border-width: 0px 0px 0.8px 0px;
+  padding: 0px 112px 0.8px 112px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 46.4px;
+  position: relative;
+  box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.container4 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 45.6px;
+  position: relative;
+}
+.link2 {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 0px 0px 1.6px 0px;
+  padding: 0px 0px 1.6px 0px;
+  flex-shrink: 0;
+  width: 123.47px;
+  height: 45.6px;
+  position: relative;
+}
+.icon2 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  overflow: visible;
+}
+.dashboard {
+  color: #45556c;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 11.8px;
+}
+.link3 {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 0px 0px 1.6px 0px;
+  padding: 0px 0px 1.6px 0px;
+  flex-shrink: 0;
+  width: 158.75px;
+  height: 45.6px;
+  position: relative;
+}
+.icon3 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  overflow: visible;
+}
+.service-requests {
+  color: #45556c;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 11.8px;
+}
+.link4 {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 0px 0px 1.6px 0px;
+  padding: 0px 0px 1.6px 0px;
+  flex-shrink: 0;
+  width: 122.33px;
+  height: 45.6px;
+  position: relative;
+}
+.icon4 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  overflow: visible;
+}
+.employees {
+  color: #45556c;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 11.8px;
+}
+.link5 {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 0px 0px 1.6px 0px;
+  padding: 0px 0px 1.6px 0px;
+  flex-shrink: 0;
+  width: 112.04px;
+  height: 45.6px;
+  position: relative;
+}
+.icon5 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  overflow: visible;
+}
+.schedule {
+  color: #45556c;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 11.8px;
+}
+.link6 {
+  border-style: solid;
+  border-color: #ff2056;
+  border-width: 0px 0px 1.6px 0px;
+  padding: 0px 0px 1.6px 0px;
+  flex-shrink: 0;
+  width: 97.39px;
+  height: 45.6px;
+  position: relative;
+}
+.icon6 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  overflow: visible;
+}
+.clients {
+  color: #ec003f;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 11.8px;
+}
+.link7 {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 0px 0px 1.6px 0px;
+  padding: 0px 0px 1.6px 0px;
+  flex-shrink: 0;
+  width: 105.69px;
+  height: 45.6px;
+  position: relative;
+}
+.icon7 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  overflow: visible;
+}
+.invoices {
+  color: #45556c;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 11.8px;
+}
+.client-management2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1216px;
+  margin: 32px auto 40px;
+  position: relative;
+}
+.container5 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 59.99px;
+  position: relative;
+}
+.heading-12 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 31.99px;
+  position: relative;
+}
+.clients2 {
+  color: #0f172b;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  position: relative;
+  flex: 1;
+}
+.paragraph2 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 24px;
+  position: relative;
+}
+.view-all-client-and-pet-profiles {
+  color: #45556c;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1.99px;
+  width: 342px;
+}
+.fe {
+  background: linear-gradient(
+    135deg,
+    rgba(239, 246, 255, 1) 0%,
+    rgba(219, 234, 254, 1) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #bedbff;
+  border-width: 0.8px;
+  padding: 24px 0px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 133.6px;
+  position: relative;
+}
+.z-0 {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  width: 1166.4px;
+  position: relative;
+}
+.container6 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 74.65px;
+  height: 84px;
+  position: relative;
+}
+.total-clients {
+  color: #1447e6;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 0.2px;
+  top: 0.21px;
+  width: 198px;
+}
+.paragraph3 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 36px;
+  position: relative;
+}
+._1 {
+  color: #1c398e;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: -1.6px;
+}
+._2-pets-total {
+  color: #155dfc;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 0.2px;
+  top: 0.21px;
+  width: 127px;
+}
+.icon8 {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+}
+.fe2 {
+  background: #ffffff;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 0.8px;
+  padding: 24px 0px 0px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 370.38px;
+  position: relative;
+}
+.z-02 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1166.4px;
+  height: 320.77px;
+  position: relative;
+}
+.container7 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 56px;
+  position: relative;
+}
+.heading-3 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 28px;
+  position: relative;
+}
+.sarah-johnson {
+  color: #0f172b;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  position: absolute;
+  left: 0.2px;
+  top: -1.39px;
+  width: 259px;
+}
+.container8 {
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.paragraph4 {
+  flex: 1;
+  height: 20px;
+  position: relative;
+}
+.sarah-j-email-com {
+  color: #45556c;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.paragraph5 {
+  flex: 1;
+  height: 20px;
+  position: relative;
+}
+._555-123-4567 {
+  color: #45556c;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.paragraph6 {
+  flex: 1;
+  height: 20px;
+  position: relative;
+}
+._123-oak-street-portland-or-97201 {
+  color: #45556c;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.container9 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 248.78px;
+  position: relative;
+}
+.container10 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 20px;
+  position: relative;
+}
+.icon9 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.paragraph7 {
+  flex-shrink: 0;
+  width: 1029px;
+  height: 20px;
+  position: relative;
+}
+.pets-2 {
+  color: #314158;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: -0.2px;
+}
+.container11 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  position: relative;
+}
+.container12 {
+  background: #f8fafc;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #e2e8f0;
+  border-width: 0.8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.container13 {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 24px;
+  position: relative;
+}
+.heading-4 {
+  flex-shrink: 0;
+  width: 31.16px;
+  height: 24px;
+  position: relative;
+}
+.max {
+  color: #0f172b;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: -2.2px;
+}
+.ln {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 0.8px;
+  padding: 2px 8px 2px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40.61px;
+  height: 21.59px;
+  position: relative;
+  overflow: hidden;
+}
+.dog {
+  color: #0a0a0a;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  position: relative;
+}
+.container14 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+.paragraph8 {
+  width: 100%;
+  position: relative;
+}
+.breed-golden-retriever {
+  color: #45556c;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.breed-golden-retriever-span {
+  font-family: "Inter-Medium", sans-serif;
+  font-weight: 500;
+}
+.breed-golden-retriever-span2 {
+  font-family: "Inter-Regular", sans-serif;
+}
+.paragraph9 {
+  width: 100%;
+  position: relative;
+}
+.age-4-years {
+  color: #45556c;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.age-4-years-span {
+  font-family: "Inter-Medium", sans-serif;
+  font-weight: 500;
+}
+.age-4-years-span2 {
+  font-family: "Inter-Regular", sans-serif;
+}
+.paragraph10 {
+  width: 100%;
+  position: relative;
+}
+.weight-70-lbs {
+  color: #45556c;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.weight-70-lbs-span {
+  font-family: "Inter-Medium", sans-serif;
+  font-weight: 500;
+}
+.weight-70-lbs-span2 {
+  font-family: "Inter-Regular", sans-serif;
+}
+.paragraph11 {
+  background: #eff6ff;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #bedbff;
+  border-width: 0.8px;
+  padding: 8px;
+  width: 100%;
+  position: relative;
+}
+.up-to-date-on-vaccinations {
+  color: #1c398e;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.paragraph12 {
+  background: #fffbeb;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #fee685;
+  border-width: 0.8px;
+  padding: 8px;
+  width: 100%;
+  position: relative;
+}
+.loves-treats-friendly-with-other-dogs {
+  color: #7b3306;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.container15 {
+  background: #f8fafc;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #e2e8f0;
+  border-width: 0.8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.heading-42 {
+  flex-shrink: 0;
+  width: 34.88px;
+  height: 24px;
+  position: relative;
+}
+.bella {
+  color: #0f172b;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: -2.2px;
+}
+.ln2 {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 0.8px;
+  padding: 2px 8px 2px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 35.66px;
+  height: 21.59px;
+  position: relative;
+  overflow: hidden;
+}
+.cat {
+  color: #0a0a0a;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  position: relative;
+}
+.breed-siamese {
+  color: #45556c;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.breed-siamese-span {
+  font-family: "Inter-Medium", sans-serif;
+  font-weight: 500;
+}
+.breed-siamese-span2 {
+  font-family: "Inter-Regular", sans-serif;
+}
+.age-2-years {
+  color: #45556c;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.age-2-years-span {
+  font-family: "Inter-Medium", sans-serif;
+  font-weight: 500;
+}
+.age-2-years-span2 {
+  font-family: "Inter-Regular", sans-serif;
+}
+.weight-10-lbs {
+  color: #45556c;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.weight-10-lbs-span {
+  font-family: "Inter-Medium", sans-serif;
+  font-weight: 500;
+}
+.weight-10-lbs-span2 {
+  font-family: "Inter-Regular", sans-serif;
+}
+.indoor-only {
+  color: #1c398e;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.shy-with-strangers {
+  color: #7b3306;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  position: relative;
+}
